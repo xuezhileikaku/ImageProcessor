@@ -12,13 +12,14 @@ require 'Image.php';
 
 $image = new Image();
 $image->createGif('output.gif', 'Hello World', 28, '#FF0000', '/path/to/font.ttf', '#FFFFFF');
-
+```php
 ### Creating a Sprite Image
+```php
 require 'Image.php';
 
 $image = new Image();
 $image->createSprite('sprite.png', 'Hello World', 28, '#0000FF', '/path/to/font.ttf', '#FFFFFF');
-
+```php
 ## Methods
 ### createGif
 Description: Creates a GIF with the given text.
