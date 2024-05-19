@@ -24,7 +24,7 @@ $image->createSprite('sprite.png', 'Hello World', 28, '#0000FF', '/path/to/font.
 ### createGif
 * Description: Creates a GIF with the given text.
 * Parameters:
-$file_name (string): The name of the output GIF file.
+** $file_name (string): The name of the output GIF file.
 $words (string): The text to be displayed in the GIF.
 $font_size (int): The size of the font.
 $font_color (string): The color of the font in hexadecimal.
