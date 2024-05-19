@@ -24,28 +24,28 @@ $image->createSprite('sprite.png', 'Hello World', 28, '#0000FF', '/path/to/font.
 ### createGif
 * Description: Creates a GIF with the given text.
 * Parameters:
-** $file_name (string): The name of the output GIF file.
-$words (string): The text to be displayed in the GIF.
-$font_size (int): The size of the font.
-$font_color (string): The color of the font in hexadecimal.
-$font_path (string): The path to the font file.
-$bg (string): The background color in hexadecimal.
+  * $file_name (string): The name of the output GIF file.
+  * $words (string): The text to be displayed in the GIF.
+  * $font_size (int): The size of the font.
+  * $font_color (string): The color of the font in hexadecimal.
+  * $font_path (string): The path to the font file.
+  * $bg (string): The background color in hexadecimal.
 ### createSprite
 * Description: Creates a sprite image with the given text.
 * Parameters:
-$file_name (string): The name of the output PNG file.
-$words (string): The text to be displayed in the sprite image.
-$font_size (int): The size of the font.
-$words_color (string): The color of the text in hexadecimal.
-$font_path (string): The path to the font file.
-$bg (string): The background color in hexadecimal.
+  * $file_name (string): The name of the output PNG file.
+  * $words (string): The text to be displayed in the sprite image.
+  * $font_size (int): The size of the font.
+  * $words_color (string): The color of the text in hexadecimal.
+  * $font_path (string): The path to the font file.
+  * $bg (string): The background color in hexadecimal.
 ### hexToRgb
 * Description: Converts a hexadecimal color to RGB.
 * Parameters:
-$hex (string): The hexadecimal color.
-Returns: An array containing the RGB values.
+  * $hex (string): The hexadecimal color.
+  * Returns: An array containing the RGB values.
 ### rgbToHex
 * Description: Converts an RGB color to hexadecimal.
 * Parameters:
-$rgb (array): An array containing the RGB values.
-Returns: A string containing the hexadecimal color.
+  * $rgb (array): An array containing the RGB values.
+  * Returns: A string containing the hexadecimal color.
